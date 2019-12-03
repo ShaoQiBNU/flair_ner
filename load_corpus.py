@@ -14,7 +14,7 @@ def load_conll():
                                   test_file='test.txt',
                                   dev_file='dev.txt')
     print("train dataset:")
-    print (len(corpus.train))
+    print(len(corpus.train))
 
     print("dev dataset:")
     print(len(corpus.dev))
